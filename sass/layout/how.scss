@@ -1,0 +1,45 @@
+.how {
+  margin-top: 25rem;
+  padding: 10rem 30rem;
+  .container-flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  &__details {
+    transform: scale(1.1);
+  }
+
+  &__images {
+    position: relative;
+
+    .path-dashed {
+      width: 50rem;
+      height: 30rem;
+      border-radius: 60%;
+      position: absolute;
+      top: 0rem;
+      left: 0;
+      transform: translateY(25%) translateX(-40%);
+      z-index: -1;
+      clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+      border: 3px dashed $color-red-two;
+    }
+
+    .image {
+      width: 38rem;
+
+      .card {
+        &:nth-child(odd) {
+          float: left;
+          clear: both;
+        }
+        &:nth-child(even) {
+          float: right;
+          clear: both;
+        }
+      }
+    }
+  }
+}

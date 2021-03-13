@@ -1,0 +1,25 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.header-primary {
+  color: $color-red-one;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 3.5rem;
+}
+
+.paragragh-primary {
+  color: $color-grey-light;
+  line-height: 1.4;
+  font-size: 1.7rem;
+  margin: 2.5rem 0;
+}
+
+.text-location {
+  color: $color-red-one;
+  font-size: 1.7rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}

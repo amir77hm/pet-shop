@@ -1,0 +1,16 @@
+.card {
+  background-color: $color-white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  box-shadow: 0 0.1rem 0.4rem rgba($color-black, 0.3);
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 15rem;
+
+  img {
+    width: 4rem;
+    margin-bottom: 2rem;
+  }
+}

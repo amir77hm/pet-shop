@@ -1,0 +1,26 @@
+.seen {
+  padding: 0 30rem;
+
+  &__title {
+    text-align: center;
+    font-size: 1.7rem;
+    color: $color-grey-light;
+    margin-bottom: 5rem;
+  }
+  &__img {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__logo {
+    width: 7rem;
+    height: 7rem;
+
+    &-long {
+      width: 8rem;
+    }
+
+    &-veryLong {
+      width: 12rem;
+    }
+  }
+}

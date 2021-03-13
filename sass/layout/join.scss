@@ -1,0 +1,46 @@
+.join {
+  padding: 15rem 30rem;
+
+  &__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/Mask_Group 18.png");
+    background-color: rgba($color: $color-blue-light, $alpha: 0.9);
+    border-radius: 2rem;
+  }
+
+  &__img {
+    width: 30%;
+
+    img {
+      width: 100%;
+      padding: 3rem;
+    }
+  }
+
+  &__details {
+    width: 70%;
+    padding-right: 3rem;
+
+    h2 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: rgb(255, 230, 0);
+      margin-bottom: 2rem;
+    }
+    p {
+      font-size: 1.7rem;
+      color: $color-white;
+      line-height: 1.7;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__btn {
+    color: $color-red-three;
+    background-color: $color-white;
+    padding: 1rem 2rem;
+    font-weight: 700;
+  }
+}
